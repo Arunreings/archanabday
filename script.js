@@ -23,7 +23,7 @@ const cardSections = document.querySelectorAll('.card-section');
 const birthdayDate = new Date(2025, 11, 25, 0, 0, 0);
 
 birthdayDate.setDate(birthdayDate.getDate() + 1);
-birthdayDate.setHours(12, 9, 0, 0);
+birthdayDate.setHours(12, 11, 0, 0);
 
 // Variables
 let countdownInterval;
@@ -604,5 +604,6 @@ function initImageLazyLoad() {
 
 // Initialize website when DOM is loaded
 document.addEventListener('DOMContentLoaded', initWebsite);
+
 
 
