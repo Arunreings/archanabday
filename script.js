@@ -20,10 +20,10 @@ const navLinks = document.querySelector('.nav-links');
 const cardSections = document.querySelectorAll('.card-section');
 
 // Set birthday date (next day for countdown demo)
-const birthdayDate = new Date(2025, 11, 25, 0, 0, 0);
+const birthdayDate = new Date(2025, 11, 26, 0, 0, 0);
 
 birthdayDate.setDate(birthdayDate.getDate() + 1);
-birthdayDate.setHours(12, 11, 0, 0);
+birthdayDate.setHours(0, 0, 0, 0);
 
 // Variables
 let countdownInterval;
@@ -604,6 +604,7 @@ function initImageLazyLoad() {
 
 // Initialize website when DOM is loaded
 document.addEventListener('DOMContentLoaded', initWebsite);
+
 
 
 
